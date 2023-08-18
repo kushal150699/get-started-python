@@ -10,6 +10,8 @@ db_name = 'mydb'
 client = None
 db = None
 
+# First comment
+
 if 'VCAP_SERVICES' in os.environ:
     vcap = json.loads(os.getenv('VCAP_SERVICES'))
     print('Found VCAP_SERVICES')
